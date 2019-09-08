@@ -1,0 +1,6 @@
+---
+
+- hosts: all
+  tasks:
+   - name: saluda
+     shell: echo hola
